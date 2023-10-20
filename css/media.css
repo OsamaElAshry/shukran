@@ -1,0 +1,278 @@
+@media (max-width: 375px) {
+    header nav .row .menu-btn{
+        display: block;
+    }
+    header nav .row .nav-btn{
+        display: none;
+    }
+    header nav .row .menu-btn {
+        margin: auto;
+        }
+    header nav .row .logo{
+        margin: auto;
+     
+    }
+}    
+/*=========== endnav ==========*/
+
+/*========== hero =========*/
+@media (max-width: 375px) {
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .hero .container .img  {
+        width: 100%;
+    }
+    .hero .container .img img {
+        width: 80%;
+    }
+    .hero .container .caption {
+        width: 100%;
+        text-align: center;
+    }
+    .hero .container .caption h1 {
+        font-size:32px;
+        font-weight: 700;
+    }
+    .hero .container .caption p{
+        font-size: 16px;
+    }
+    .hero .container .caption button{
+        margin-right: 0;
+    }
+}
+/*========== endhero =========*/
+
+/*========= partners =========*/
+@media(max-width:375px) {
+    .clients .imgs{
+        display: block;
+        text-align: center;
+    }
+}
+/*========= endpartners =========*/
+
+/*========== using =========*/
+@media (max-width: 375px) {
+    .using .container {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .using .container .img {
+        width: 100%;
+    }
+    .using .container .img img {
+        width: 80%;
+    }
+    .using .container .caption{
+        width: 100%;
+        text-align: center;
+    }
+    .using .container .caption div{
+        padding-left: 40px;
+    }
+}
+/*======== end using =======*/
+
+/*======= who r we =======*/
+@media (max-width: 1200px) {
+    .about .container .box{
+        width: 35%;
+    }
+} 
+
+@media (max-width: 992px) {
+    .about .container {
+        flex-wrap: wrap;
+    }
+    
+    .about .container .box {
+        width: 82.5%;
+        margin-bottom: 48px;
+    }
+    
+    .about .container .img {
+        margin-bottom: 20px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .about .container .box {
+        width: 95%;
+    }
+
+    .about .container .bx-1 {
+        text-align: center;
+    }
+} 
+/*======= end who r we =======*/
+
+/*======= categories =======*/
+@media (max-width: 1200px) {
+    .categories .container {
+        width: 79%;
+    }
+} 
+
+@media (max-width: 992px) {
+    .categories .container {
+        width: 90%;
+    }
+
+    .categories .container .item {
+        width: 45%;
+    }
+} 
+
+@media (max-width: 768px) {
+    .categories .container {
+        width: 80%;
+    }
+
+    .categories .container .item {
+        width: 70%;
+    }
+} 
+
+@media (max-width: 576px) {
+    .categories .container {
+        width: 90%;
+    }
+
+    .categories .container .item {
+        width: 90%;
+    }
+} 
+/*========== end categories ==========*/
+
+ /*========== brands ========*/
+ @media (max-width: 1200px) {
+    .brands .box {
+        width: 78%;
+    }
+
+    .brands .box .item {
+        margin: 0 15px;
+        width: 33%;
+    }
+    
+} 
+
+@media (max-width: 992px) {
+    .brands .box {
+        flex-wrap: wrap;
+    }
+
+    .brands .box .item {
+        width: 45%;
+        margin: 12px 30px;
+        max-height: 450px;
+    }
+
+    .brands .description p{
+        width: 82.5%;
+    }
+} 
+
+@media (max-width: 768px) {
+    .brands .box .item {
+        width: 75%;
+    }
+} 
+
+@media (max-width: 576px) {
+    .brands .box .item {
+        width: 90%;
+    }
+} 
+/*======== end brands =========*/
+
+/*======= contacts =======*/
+@media (max-width: 1200px) {
+    .contact .container {
+        width: 78%;
+    }
+
+    .contact .social {
+        width: 78%;
+    }
+} 
+
+@media (max-width: 992px) {
+    .contact .description p {
+        width: 82.5%;
+    }
+
+    .contact .container {
+        width: 85%;
+    }
+
+    .contact .social {
+        width: 85%;
+    }
+} 
+
+@media (max-width: 768px) {
+    .contact .container {
+        flex-wrap: wrap;
+        width: 96%;
+    }
+
+    .contact .container .box {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .contact .container .box form .contain {
+        flex-wrap: wrap;
+    }
+    
+    .contact .container .box form .contain .details {
+        width: 100%;
+    }
+
+    .contact .social {
+        width: 98%;
+    }
+} 
+
+@media (max-width: 576px) {
+    .contact .container .box form .details button {
+        width: 65%;
+    }
+}
+/*=========== end contact ===========*/
+
+/*========== footer ==========*/
+@media (max-width: 1200px) {
+    .footer .container {
+        width: 78%;
+    }
+} 
+
+@media (max-width: 992px) {
+    .footer .container {
+        width:85%;
+    }
+} 
+
+@media (max-width: 768px) {
+    .footer .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer .container div {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .footer .container .box-1 {
+        margin-bottom: 48px;
+    }
+} 
+/*========== end footer ===========*/
